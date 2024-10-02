@@ -25,7 +25,10 @@
     <script>
         let element = document.getElementById("element");
         let inprogres = document.getElementById("inprogres");
-        inprogres.appendChild(element);
+        element.addEventListener("click",(e) =>{
+            inprogres.appendChild(element);
+        });
+        
     </script>
 </body>
 </html>
